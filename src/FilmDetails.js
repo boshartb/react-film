@@ -1,8 +1,7 @@
 import React from "react";
 // import {url_base} from 'TMDB';
 
-// simplier verison of the props
-//const filmDetails = props => {
+
 class FilmDetails extends React.Component {
   render() {
     return (

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import FilmListing from "./FilmListing";
-import FilmDetails from "./FilmDetails";
+
 import TMND from "./TMDB";
 
 class App extends Component {
@@ -11,9 +11,10 @@ class App extends Component {
       <div className="film-library">
         <div className="film-list">
           <h1 className="section-title">FILMS</h1>
-          {TMND.films.map((films, index) => (
-            <FilmListing key={index} />
-          ))}
+
+
+          <FilmListing films={TMND.films} />
+
 
         </div>
 
@@ -27,6 +28,10 @@ class App extends Component {
 
 export default App;
 
+
+// {TMND.films.map((film, index) => (
+//   <FilmListing film={film} key={index} />
+// ))}
 // import { TMDB as Data } from "./TMDB";
 
 // pass by refenece
