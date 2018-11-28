@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import FilmListing from "./FilmListing";
 
@@ -11,7 +10,6 @@ class App extends Component {
       <div className="film-library">
         <div className="film-list">
           <h1 className="section-title">FILMS</h1>
-
 
           <FilmListing films={TMND.films} />
 
@@ -29,9 +27,7 @@ class App extends Component {
 export default App;
 
 
-// {TMND.films.map((film, index) => (
-//   <FilmListing film={film} key={index} />
-// ))}
+
 // import { TMDB as Data } from "./TMDB";
 
 // pass by refenece

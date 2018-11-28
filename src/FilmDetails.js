@@ -6,7 +6,7 @@ class FilmDetails extends React.Component {
   render() {
     return (
       <div className="film-details">
-        <h1 className="section-title">DETAILS</h1>
+        <h1 className="section-title"></h1>
       </div>
     );
   }

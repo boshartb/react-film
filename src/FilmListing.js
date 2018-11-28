@@ -1,5 +1,4 @@
 import React from "react";
-import FilmDetails from "./FilmDetails";
 import FilmRow from './FilmRow';
 
 class FilmListing extends React.Component {
